@@ -61,13 +61,13 @@ ul li ul li a:hover{
 	color:white;
 }
 .fb:hover {
-	background-image: url(fb.png);
+	background-image: url(../fb.png);
 }
 .twit:hover {
-	background-image: url(tw.png);
+	background-image: url(../tw.png);
 }
 .yt:hover {
-	background-image: url(yt.png);
+	background-image: url(../yt.png);
 }
 .fb,.twit,.yt{
 	color: white;
