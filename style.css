@@ -93,7 +93,7 @@ body{
 }
 
 /*Start of mobile*/
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 400px){
 .banner{
 	background-image: url(img/banner.png);
 	position:absolute;
