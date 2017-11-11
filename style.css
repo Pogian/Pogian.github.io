@@ -52,7 +52,7 @@ ul li a:hover{
 	height:1152px;
 	margin-top: 1px;
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 485px){
 *{
 	margin:0;
 	padding:0;
