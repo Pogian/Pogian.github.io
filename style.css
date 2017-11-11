@@ -42,6 +42,9 @@ label{
 	display: none;
 	width: 36px;
 	float:right;
+	position:fixed;
+	left:85%;
+
 }
 #toggle{
 	display: none;
