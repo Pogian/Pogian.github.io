@@ -93,7 +93,11 @@ body{
 }
 
 /*Start of mobile*/
+<<<<<<< HEAD
 @media only screen and (max-width: 320px){
+=======
+@media only screen and (max-width: 480px){
+>>>>>>> 5a5d9efb94fbdf944fcf6e55df313d824e6eee74
 .banner{
 	background-image: url(img/banner.png);
 	position:absolute;
