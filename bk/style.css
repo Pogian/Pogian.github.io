@@ -1,0 +1,149 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #D7DBDD;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner{
+	width: 300px;
+	height: 68px;
+	background-image: url(img/banner.png);
+	position: absolute;
+	left: 75%;
+}
+.navBar{
+	width:100%;
+	height: auto;
+	background-color: #28B463;
+	display: block;	
+	opacity: .9;
+	position: absolute;
+}
+.category{
+	background-image: url(img/cat.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 80%;
+	float: left;
+	display: none;
+}
+.mobBG{
+	display: none;
+}
+.main-menu li a {
+	text-decoration: none;
+	color:white;
+}
+.main-menu li{
+	list-style: none;
+	float:left;
+	width:150px;
+	height:70px;
+	line-height: 70px;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;	
+}
+.main-menu li:hover{
+	background-color: #28B463;
+}
+.main-menu li:hover .sub-menu li{
+	display: block;
+	height: 50px;	
+}
+.main-menu li:hover .sub-menu li a{
+	color:black;	
+}
+.main-menu li .sub-menu li:hover a{
+	color:white;
+}
+.sub-menu li a {
+	text-decoration: none;
+	color: white;
+}
+.sub-menu li a:hover {
+	text-decoration: none;
+	color: white;
+}
+.sub-menu li{
+	display: none;
+	background-color: #efefef;
+	line-height: 50px;	
+	color:black;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;	
+	border-bottom: 1px solid #188546;
+}
+.sub-menu li:hover{
+	background-color: #1d8549;
+	color:white;
+}
+.sub-menu li:last-child{
+	border-bottom: 2px solid #1e9852;
+}
+
+/*Start of mobile*/
+<<<<<<< HEAD
+@media only screen and (max-width: 320px){
+=======
+@media only screen and (max-width: 480px){
+>>>>>>> 5a5d9efb94fbdf944fcf6e55df313d824e6eee74
+.banner{
+	background-image: url(img/banner.png);
+	position:absolute;
+	left:20%;
+}
+.navBar{
+	background-color: #28B463;
+	width:100%;
+	height: 12%;
+}
+.category{
+	display: block;
+	position:absolute;
+	top:20%;
+	left: 90%;
+	background-size: 40px 40px;
+	z-index: 1000;
+}
+body{
+	background-size: 100% 250px;
+}
+ul.main-menu, ul:active .main-menu {
+	display: none;
+}
+.category:hover ul.main-menu li a{
+	direction: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
