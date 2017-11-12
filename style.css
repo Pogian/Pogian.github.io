@@ -50,10 +50,11 @@ label{
 	display: none;
 }
 
-@media only screen and (max-width : 485px){
+@media only screen and (max-width : 680px){
 label {
 	display: block;
 	cursor: pointer;
+	left:90%;
 }
 .menu{
 	text-align: center;
@@ -83,14 +84,12 @@ label {
 	color:black;
 	transition: background 0.6s ease;
 }
-}
 
-@media only screen and (max-width : 680px){
+@media only screen and (max-width : 480px){
 label {
 	display: block;
 	cursor: pointer;
-	position:fixed;
-	left:88%;
+	left:85%;
 }
 .menu{
 	text-align: center;
