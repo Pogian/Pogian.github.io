@@ -181,6 +181,7 @@ p{
 @media only screen and (max-width : 480px){
 
 body{
+
 	background-color: #666666;
 	color: #333333;
 	font-size: 15px;
@@ -207,7 +208,7 @@ label {
 	background-color: #e5e6eb;
 	margin:0;
 	font-size: 17px;
-	height: 30px;
+	height: 35px;
 	text-decoration: none;
 	border-radius: 0px;
 }
@@ -218,6 +219,7 @@ label {
 	display: block;
 	position: absolute;
 	top:70px;
+	z-index: 1000;
 }
 .menu a:hover{
 	background-color:#93e5bc ;
@@ -251,6 +253,16 @@ img{
 p{
 	color:#fff5ee;
 }
+.foot{
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	position: relative;
+	top:400px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
 
+}
 
 }
