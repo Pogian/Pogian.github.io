@@ -265,6 +265,14 @@ p{
 	color:#fff5ee;
 }
 
+
+
+
+
+
+
+
+
 @media only screen and (max-width : 480px){
 *{
 		margin:0:
@@ -333,18 +341,17 @@ label {
 	transition: background 0.6s ease;
 }
 .episodes{
-	
 	background-color: #ffffba;
 	opacity: .8;
 	border-radius: 3px;
 	color:white;
-	width:355px; 
+	width:350px; 
     overflow-y:scroll; 
     position:absolute;
     height: auto;
     max-height: 220px;
     top:390px;
-    right: 0px;
+    right: 3px;
 
 }
 .episodes a{
