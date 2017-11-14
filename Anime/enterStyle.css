@@ -264,10 +264,10 @@ p{
 @media only screen and (max-width : 480px){
 	iframe{
 			position: absolute;
-			top:11%;
-			left: 0%;
-			width:376px;
-			height: 194px;
+			top:12%;
+			left: 1%;
+			width:362px;
+			height: 184px;
 			border-radius: 1px;
 		}
 img{
@@ -330,27 +330,27 @@ label {
 	opacity: .8;
 	border-radius: 3px;
 	color:white;
-	width:370px; 
+	width:355px; 
     overflow-y:scroll; 
     position:absolute;
     height: auto;
     max-height: 400px;
     top:264px;
-    right: 3px;
+    right: 10px;
 
 }
 .episodes a{
 	display: block;
 	float: left;
 	background-color: #4f5b66;
-	width: 80px;
+	width: 78px;
 	height: 30px;
 	top:30px;
 	margin-top: 8px;
 	line-height: 30px;
 	text-align: center;
 	border-radius: 2px;
-	margin-left: 8px;
+	margin-left: 5px;
 	text-decoration: none;
 	color:white;
 	transition: background 0.2s ease;
