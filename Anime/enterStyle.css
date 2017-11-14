@@ -144,8 +144,8 @@ p{
 @media only screen and (max-width : 680px){
 iframe{
 	position: absolute;
-	top:12%;
-	left: 1%;
+	top:24%;
+	left: 0.5%;
 	width:655px;
 	height: 190px;
 	border-radius: 1px;
@@ -168,7 +168,7 @@ label {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	left:85%;
+	left:90%;
 }
 .menu{
 	text-align: center;
@@ -210,13 +210,13 @@ label {
 	opacity: .8;
 	border-radius: 3px;
 	color:white;
-	width:660px; 
+	width:650px; 
     overflow-y:scroll; 
     position:absolute;
     height: auto;
     max-height: 340px;
-    top:272px;
-    right: 10px;
+    top:280px;
+    right: 7px;
 
 }
 .episodes a{
