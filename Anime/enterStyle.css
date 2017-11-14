@@ -141,7 +141,7 @@ p{
 	color:#fff5ee;
 }
 
-@media only screen and (max-width : 700px){
+@media only screen and (max-width : 680px){
 	*{
 		margin:0:
 		padding:0;
@@ -150,9 +150,10 @@ iframe{
 	position: absolute;
 	top:24%;
 	left: 0.5%;
-	width:650px;
+	width:630px;
 	height: 190px;
 	border-radius: 1px;
+	float:left;
 }
 img{
 	display: none;
@@ -214,7 +215,7 @@ label {
 	opacity: .8;
 	border-radius: 3px;
 	color:white;
-	width:635px; 
+	width:620px; 
     overflow-y:scroll; 
     position:absolute;
     height: auto;
