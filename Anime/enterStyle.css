@@ -275,7 +275,7 @@ iframe{
 			top:13%;
 			left: 1%;
 			width:350px;
-			height: 260px;
+			height: 300px;
 			border-radius: 2px;
 		}
 img{
@@ -342,8 +342,8 @@ label {
     overflow-y:scroll; 
     position:absolute;
     height: auto;
-    max-height: 250px;
-    top:345px;
+    max-height: 220px;
+    top:390px;
     right: 0px;
 
 }
