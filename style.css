@@ -12,9 +12,10 @@ body{
 	font-family: Calibri,Arial;
 
 }
-label, #toggle{
+label, #toggle, #searchbar,.image{
 	display: none;
 }
+
 .topcolor{
 	background-color: #01b888;
 	width: 100%;
@@ -97,7 +98,7 @@ body{
 	display: none;
 }
 #toggle{
-	float:right;
+	float:left;
 	display: none;
 }
 #toggle:checked + .main, .main>li{
@@ -105,20 +106,14 @@ body{
 }
 label{
 	display: block;
-	float:right;
+	float:left;
 	margin:2px 4px;
 	font-size: 30px;
 	position: absolute;
 	top:20px;
-	right:2px;
+	left:2px;
 }
 .main li:hover .submenu li{
 	display: none;
 }
-
-
-
-
-
-
 }
