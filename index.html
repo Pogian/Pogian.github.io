@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>AnimeFree | Watch Now</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.theme.css">
 </head>
 <body>
-<header>
-	<div class="topcolor">
-		<img src="img/bg.png" />
-		<div class="shadow-topcolor"></div>
-	</div>
-</header>
-<nav>
-	<div class="wrapper">
-		<label for="toggle" >&#9776;</label>
-		<input type="checkbox" id="toggle">
+	<header>
+		<div class="myLogo"></div>
+	</header>
+	<nav class="wrapper">
+		<div>
 
-		<ul class="main">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="OA.html">Ongoing Anime</a>
-				<ul class="submenu">
-					<li><a href="">Dragon Ball Super</a></li>
-					<li><a href="">Hunter x Hunter</a></li>
-					<li><a href="">Bleach</a></li>
-				</ul>
-			</li>
-			<li><a href="PA.html">Popular Anime</a></li>
-			<li><a href="AM.html">AniMovies</a></li>		
-			<li><a href="CS.html">Contact Us</a></li>
-		</ul>
-	</div>
-</nav>
+			<ul class="main">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Popular Anime</a>
+					<ul class="submenu">
+						<li><a href="popAnime/naruto.html">Naruto</a></li>
+						<li><a href="popAnime/bleach.html">Bleach</a></li>
+						<li><a href="popAnime/dbs.html">Dragon Ball Super</a></li>
+						<li><a href="popAnime/detectiveconan.html">Detective Conan</a></li>
+						<li><a href="popAnime/hxh.html">Hunter x Hunter</a></li>
+						<li><a href="popAnime/yokai.html">Yokai Watch</a></li>
+					</ul>
+				</li>
+				<li><a href="#">AniMovies</a>
+				</li>
+				<li><a href="#">Latest Anime</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section>
+
+		<div class="sec_wrapper">
+			<div class="relEpi_wrapper">
+				<img id="releaseEpisodeIcon" src="img/releaseEpisodeIcon.png">
+				<p id="relEpi">
+				Release Episodes
+			</p>
+
+			</div>
+				<a href="popAnime/dbs.html"/><img src="img/dbs.jpg" alt="" title="Dragon Ball Super"></a>
+				<a href="popAnime/bleach.html"/><img src="img/bleach.jpg" alt=""></a>
+				<a href="popAnime/detectiveconan.html"/><img src="img/conan.jpg" alt=""></a>
+				<a href="popAnime/naruto.html"/><img src="img/naruto.jpg" alt=""></a>
+				<a href="popAnime/yokai.html"/><img src="img/yokai.jpg" alt=""></a>
+				<a href="popAnime/hxh.html"/><img src="img/hxh.png" alt=""></a>
+		</div>
+
+		<div class="sec_wrapper">
+			<img id="popularAnimeIcon" src="img/popularAnimeIcon.png">
+			<div class="relEpi_wrapper"><p id="popAnime">Popular Anime</p></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript" src="jquery.js">
+
+</script>
 </body>
 </html>
