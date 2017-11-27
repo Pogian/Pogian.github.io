@@ -1,8 +1,6 @@
 $(document).ready(function(){
-	$(".main>li").hover(function(){
-		$(".submenu>li").stop(true, false, true).slideDown("fast");
-	},function(){
-		$(".submenu>li").slideUp("fast")
+	$(".main li").hover(function(){
+		$(this).find(".submenu li").stop().slideToggle("fast");
+		
 	});
-
 });

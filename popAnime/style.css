@@ -49,6 +49,15 @@ box-shadow: -2px 3px 7px -5px rgba(176,176,176,1);
 	display: none;
 	list-style-type: none;
 }
+.sectionTitle{
+
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	color: #4b4f56;
+}
 .submenu>li>a{
 	text-align: center;
 	margin-right: 5px;
@@ -64,30 +73,77 @@ box-shadow: -2px 3px 7px -5px rgba(176,176,176,1);
 	background-color: #ffffff;
 	margin: 5px 0px;
 	margin-left: 5px;
-	margin-right: 400px;
+	margin-right: 294px;
 	padding: 0px
 	width: 100%;
 	height: auto;
+
 	border-radius: 5px;
 	box-shadow: -5px 5px 7px -5px rgba(176,176,176,1);
-	border: 1px solid #d0d0d0;
+	border: 1px solid #d0d0d0;	
+}
+.picAndTell{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    margin-right: 30px;
+    padding: 10px;
+	clear: right;
 }
 img{
-	width: 400px;
+	width: 455px;
 	height: 350px;
 	padding-left: 5px;
 	margin-right: -6px;
 	margin-bottom: 5px;	
 	border-radius: 2px;
 }
-.picAndTell{
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    margin-right: 20px;
+.sideMenu{
+	width: 20.7%;
+	float: right;
+	position: absolute;
+	top: 65px;
+	right: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: calibri;
+	color: #4b4f56;
+	box-shadow: -4px 5px 7px -5px rgba(176,176,176,1);
+	background-color: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #d0d0d0;
+
+}
+.icon{
+	position: absolute;
+	top: 7px;
+ 	width: 21px;
+ 	height: 20px;
+}
+.sideMenu_Info{
+	margin-top: -15px;
+}
+.sideMenu_Info li{
+	list-style-type: none;
+	line-height: 30px;
+	border-bottom: 1px solid #d0d0d0;
+	padding-top: -5px;
+}
+.sideMenu_Info>li:hover{
+	background-color: #f6f5f5;	
+}
+.sideMenu_Info li a{
+	text-decoration: none;
+	font-family: calibri;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 10px;
 }
 .rating{
-	font-size: 30px;
+	font-size: 25px;
+	position: absolute;
+	top: 95px;
+	left: 19px;
 }
 .relEpi_wrapper{
 	background-color: #f6f7f9;
@@ -110,4 +166,16 @@ img{
 	margin-right: 20px;
 	width: 20px;
 	height: 20px;
+}
+.story{
+	text-align: left;
+	text-indent: 30px;
+}
+.foot{
+	background-color: #212121;
+	width: 100%;
+	height: 80px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
 }
