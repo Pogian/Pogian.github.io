@@ -1,165 +1,218 @@
 *{
-	margin:0;
-	padding: 0;
+	margin:0px;
+	padding:0px;
 }
 body{
-	font-family: calibri;
+	font-family: Calibri;
 	background-color: #e9ebee;
 }
 .main{
 	background-color: #f4684d;
-	width: 100%;
 	height: 60px;
-	
+	border-bottom: 1px solid #f7f7f7;
 }
-.main>li{
-	float:left;
+.main li{
+	float: left;
 	list-style-type: none;
-	font-weight: bold;
-	font-size: 17px;
-	text-align: center;
-	background-color: #f4684d;
 	width: 150px;
-	height: 60px;
+	background-color: #f4684d;
+	text-align: center;	
 	line-height: 60px;
-	transition: background-color 0.2s ease;
+	height: auto;
 }
-.main>li>a{
-	color: white;
-	text-decoration:none;
-}
-.main>li:hover{
+.main li:hover{
 	background-color: #d05139;
 }
-.main>li:hover .submenu>li{
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-left: 1px solid #c1c1c1;
-    border-right: 1px solid #c1c1c1;
+.main li a{
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Segoe UI;
 }
-.main>li:hover .submenu>li:last-child{
-    border-bottom: 1px solid #bdb7b7;
+.main li:hover .submenu li{
+	border-bottom: 1px solid #bdb7b7;
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
 }
-.submenu>li{
-	position: relative;
-	display: block;
-	width: 148px;
-	background-color: #ffffff;
+.submenu li{
+	width: 150px;
 	height: 50px;
-	line-height: 50px;
-	font-weight: normal;
-	border-bottom: 1px solid #e7e6e6;
-	font-family: Calibri;	
-	font-size: 16px;
 	display: none;
-	list-style-type: none;
-	z-index:9999;
-}
-.submenu>li>a{
-	text-align: center;
-	margin-right: 5px;
-}
-.submenu>li:hover{
-	background-color: #f6f5f5;	
-}
-.submenu>li>a{
-	color: #484848;
-	text-decoration:none;
-}
-.sec_wrapper{
 	background-color: #ffffff;
-	margin: 5px 5px;
-	padding: 0px
-	width: 70px;
+	line-height: 50px;
+}
+.submenu li a{
+	color: #484848;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Segoe UI;
+}
+.submenu li:hover{
+background-color: #f6f5f5;
+}
+
+						/*end of navigator*/
+
+.sec_Wrapper{
+	width: 100%;
+	position: absolute;
+	z-index: -100;
+}
+.leftWrapper{
+	width: 80%;
+	float:left;
 	height: auto;
-	border-radius: 4px;
-	box-shadow: -2px 4px 7px -5px rgba(176,176,176,1);
+	margin: 4px 5px;
+}
+.rightWrapper{
+	width: 18.6%;
+	float:left;
+	height: 500px;
+	margin-top: 4px;
+	margin-left: 3px
+}
+.contentWrapper_Vid{
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	margin-top:-15px; 
+	box-shadow: -5px 5px 7px -5px rgba(176,176,176,1);
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.contentWrapper_Vid iframe{
+	margin: 5px 5px;
+	width: 99%;
+	height: 550px;
+
+}
+.contentWrapper_Img{
+	width: 100%;
+	height: 210px;
+	background-color: #ffffff;
 	overflow: hidden;
-	border: 1px solid #d0d0d0;
-	position: relative;
-	max-width: 78%;
+	margin-bottom: 10px;
+	margin-top:-15px; 
+	box-shadow: -5px 5px 7px -5px rgba(176,176,176,1);
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
-p{
-	margin: 5px 8px;
+.contentWrapper_Img a img{
+	width: 150px;
+	height: 200px;
+	margin: 5px auto;
+	white-space:nowrap;
+}
+.contentWrapper_Img a:nth-child(1){
+	margin-left: 3px;
+}
+.contentWrapper_Text{
+	margin-top:-15px; 
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: #ffffff;
+	height: auto;
+	box-shadow: -5px 5px 5px -5px rgba(176,176,176,1);
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.contentWrapper_Text p{
+	text-indent: 40px;
+	margin: 5px 10px;
 	text-align: justify;
-	text-indent: 50px;
 }
-img{
-	width: 126px;
-	height: 120px;
-	padding-left: 5px;
-	margin-right: -4px;
-	margin-bottom: 5px;
+.contentWrapper_Text span #commentz{
+	color: #484848;
+	font-family: Segoe UI;
+	font-size: 14px;
+	font-weight: bold;
 }
-.relEpi_wrapper{
+
+.title{
 	width: 100%;
 	background-color: #f6f7f9;
 	border-radius: 4px;
-	margin-top: -5px;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	border-bottom: 1px solid #d0d0d0;
 	margin-bottom: 15px;
 	position: relative;
-
+	height: auto;
+	border-bottom: 1px solid #d0d0d0;
+	box-shadow: -3px 0px 7px -5px rgba(176,176,176,1);
+	border-top: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
 }
-.sectionTitle{
-	margin-left: -20px;
-	font-size: 20px;
+.title p{
+	font-size: 17px;
 	font-weight: bold;
-	margin-bottom: 5px;
-	padding-top: 5px;
-	color: #4b4f56;
+	line-height: 30px;
+	height: 30px;
+	margin-left: 30px;
+	color: #484848;
 }
-.sec_wrapper_relEpi_max_Height{
-	max-height: 128px;
-}
-.icon{
+#Lcontent_Icon{
+	width: 20px;
+	height: 20px;
 	position: absolute;
-	top: 7px;
- 	width: 21px;
- 	height: 20px;
+	left: 5px;
+	top: 4px;
 }
-.sideMenu{
-	width: 20.7%;
-	float: right;
-	position: absolute;
-	top: 65px;
-	right: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: calibri;
-	color: #4b4f56;
-	box-shadow: -4px 5px 7px -5px rgba(176,176,176,1);
-	background-color: #ffffff;
-	border-radius: 4px;
-	border: 1px solid #d0d0d0;
+/*end of left content*/
 
+#Rcontent_Icon{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 5px;
+	top: 4px;
 }
-.sideMenu_Info{
-	margin-top: -15px;
-}
-.sideMenu_Info li{
+.rightWrapper li{
 	list-style-type: none;
 	line-height: 30px;
-	border-bottom: 1px solid #d0d0d0;
-	padding-top: -5px;
 }
-.sideMenu_Info>li:hover{
-	background-color: #f6f5f5;	
-}
-.sideMenu_Info li a{
+.rightWrapper li a{
 	text-decoration: none;
-	font-family: calibri;
-	font-size: 16px;
-	font-weight: normal;
-	padding: 10px;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 12px;	
+	margin-left: 20px;
+	color: #484848;
 }
-.foot{
-	background-color: #212121;
-	width: 100%;
-	height: 80px;
-	color: white;
-	text-align: center;
-	line-height: 70px;
+.rightWrapper li:hover{
+	background-color: #f6f5f5;
+}
+span .commentz{
+	backg
+}
+div.animeVideoPage{
+	display: none;
+}
+img#animeFrontPic{
+	width: 300px;
+	height: auto;
+	max-height: 170px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 20px;
+	float: left
+}
+div.story{
+	margin-right: 20px;
+	margin-left:10px;
+	margin-bottom: 5px;
+	text-indent: 30px;
+	text-align: justify;
 }
