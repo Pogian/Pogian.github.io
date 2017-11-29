@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 	/*---------------function for videos---------------*/
-	$("div.contentWrapper_Text li a").click(function(e){
+	$("div.episodeWrapper_Text li a").click(function(e){
 		e.preventDefault();
 		$(".animeVideoPage").show();
 		$(".animeFrontPage").hide();
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	/* ---------------end of function for videos---------------*/
 
 	$(".main li").hover(function(){
-		$(this).find(".submenu li").slideToggle("fast");	
+		$(this).find(".submenu li").stop().slideToggle("fast");	
 	});
 	$("img").tooltip({track: true});
 	/* ---------------end of function for Navigator---------------*/
