@@ -253,9 +253,9 @@ div.story{
 }
 @media only screen and (max-width: 1280px) {
     .contentWrapper_Img a img{
-	width: 150px;
+	width: 140px;
 	height: 200px;
-	margin: 5px 8px;
+	margin: 5px 1px;
 	white-space:nowrap;
 }
 .contentWrapper_Img a:nth-child(1){
