@@ -1,6 +1,15 @@
+var screenSize = screen.width;
 $(document).ready(function(){
+	$(window).resize(function() {
+    var browserWidth = $(window).width();
+      if(screenSize == 320)
+      {
+        $("#hamburgerIcon").click(function(){
+          $(".main li").stop().slideToggle();
+        });
+      }
+});
 
-	
 
 	/*---------------function for videos---------------*/
 	$("div.episodeWrapper_Text li a").click(function(e){
@@ -28,4 +37,9 @@ $(document).ready(function(){
 	$(".contentWrapper_Text li").click(function(){
 		$("div .story").hide();
 	});
+
+
+
+
+
 });
