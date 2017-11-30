@@ -231,4 +231,25 @@ div.story{
 	text-indent: 30px;
 	text-align: justify;
 }
+.contentWrapper_Text .scrollr{
+	height: auto;
+	max-height: 360px;
+	overflow-y: auto;
+}
+
 /* end of this section*/
+
+						/* ------------  START OF MEDIA QUERIES ------------  */
+
+
+@media only screen and (max-width: 1024px) {
+    .contentWrapper_Img a img{
+	width: 150px;
+	height: 200px;
+	margin: 5px 4px;
+	white-space:nowrap;
+}
+.contentWrapper_Img a:nth-child(1){
+	margin-left: 7px;
+}
+}

@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+	
 
 	/*---------------function for videos---------------*/
 	$("div.episodeWrapper_Text li a").click(function(e){
