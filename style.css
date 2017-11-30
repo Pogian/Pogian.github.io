@@ -240,6 +240,28 @@ div.story{
 /* end of this section*/
 
 						/* ------------  START OF MEDIA QUERIES ------------  */
+@media only screen and (max-width: 1366px) {
+    .contentWrapper_Img a img{
+	width: 150px;
+	height: 200px;
+	margin: 5px 1px;
+	white-space:nowrap;
+}
+.contentWrapper_Img a:nth-child(1){
+	margin-left: 3px;
+}
+}
+@media only screen and (max-width: 1280px) {
+    .contentWrapper_Img a img{
+	width: 150px;
+	height: 200px;
+	margin: 5px 8px;
+	white-space:nowrap;
+}
+.contentWrapper_Img a:nth-child(1){
+	margin-left: 4px;
+}
+}
 @media only screen and (max-width: 1152px) {
     .contentWrapper_Img a img{
 	width: 150px;
