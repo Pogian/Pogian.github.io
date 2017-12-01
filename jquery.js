@@ -2,7 +2,9 @@ $(document).ready(function(){
 	$("img#hamburgerIcon").click(function(){
 		$(".main li").stop().slideToggle();
 	});
-
+	if($(window).width() >= 375){
+		alert("this is 375");
+	}
 
 
 	/*---------------function for videos---------------*/
