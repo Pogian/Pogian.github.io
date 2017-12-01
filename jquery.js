@@ -1,14 +1,8 @@
-var screenSize = screen.width;
 $(document).ready(function(){
-	$(window).resize(function() {
-    var browserWidth = $(window).width();
-      if(screenSize == 320)
-      {
-        $("#hamburgerIcon").click(function(){
-          $(".main li").stop().slideToggle();
-        });
-      }
-});
+	$("img#hamburgerIcon").click(function(){
+		$(".main li").stop().slideToggle();
+	});
+
 
 
 	/*---------------function for videos---------------*/
