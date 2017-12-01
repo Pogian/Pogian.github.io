@@ -452,7 +452,7 @@ div.story{
 	display: none;
 }
 input#searchBox_Input{
-	background-color: #86d8b0;
+	background-color: #79d2a6;
 	position: absolute;
 	top: 13%;
 	right: 5%;
@@ -462,7 +462,7 @@ input#searchBox_Input{
 	text-align: center;
 	font-family: Segoe UI;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 13px;
 	border:none;
 	color: white;
 	border-radius: 2px;
