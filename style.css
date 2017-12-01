@@ -341,7 +341,7 @@ background-color: #f6f5f5;
 .rightWrapper{
 	width: 48%;
 	float:left;
-	height: 500px;
+	height: 600px;
 	margin-top: 4px;
 	margin-left: 3px
 }
@@ -367,6 +367,6 @@ background-color: #f6f5f5;
 .contentWrapper_Vid iframe{
 	margin: 5px 5px;
 	width: 97%;
-	height: 200px;
+	height: 350px;
 }
 }
