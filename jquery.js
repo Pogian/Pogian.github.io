@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+	/*---------------slider for images---------------*/
+	 
 	/*---------------function for videos---------------*/
 	$("div.episodeWrapper_Text li a").click(function(e){
 		e.preventDefault();
