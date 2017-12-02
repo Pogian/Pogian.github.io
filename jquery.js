@@ -55,7 +55,7 @@ $(document).ready(function(){
     responsiveClass:true,
     responsive:{
         0:{
-            items:5,
+            items:4,
             nav:true
         },
         600:{
