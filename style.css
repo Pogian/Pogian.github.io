@@ -310,8 +310,8 @@ ul.main li:nth-child(1){
 
 }
 .submenu li{
-	width: 650px;
-	margin-left: -130px;
+	width: 700px;
+	margin-left: -140px;
 	height: auto;
 	display: none;
 	background-color: #84dfb2;
@@ -388,7 +388,7 @@ ul.main li:nth-child(1){
 }
 .contentWrapper_Vid iframe{
 	margin: 5px 5px;
-	width: 98%;
+	width: 97%;
 	height: 350px;
 }
 img#animeFrontPic{
@@ -454,7 +454,6 @@ div.story{
 	border-bottom-right-radius: 3px;
 	display: none;
 }
-}
 input#searchBox_Input{
 	background-color: #79d2a6;
 	position: absolute;
@@ -474,7 +473,6 @@ input#searchBox_Input{
 .navIcons li:hover .searchBox {
 	display: block;
 }
-
 #myUL li{
 	width: 45%;
 	height: 30px;
@@ -575,8 +573,8 @@ ul.main li:nth-child(1){
 
 }
 .submenu li{
-	width: 465px;
-	margin-left: -93px;
+	width: 500px;
+	margin-left: -100px;
 	height: auto;
 	display: none;
 	background-color: #84dfb2;
@@ -719,7 +717,6 @@ div.story{
 	border-bottom-right-radius: 3px;
 	display: none;
 }
-}
 input#searchBox_Input{
 	background-color: #79d2a6;
 	position: absolute;
@@ -739,7 +736,6 @@ input#searchBox_Input{
 .navIcons li:hover .searchBox {
 	display: block;
 }
-
 #myUL li{
 	width: 45%;
 	height: 30px;
@@ -987,7 +983,6 @@ div.story{
 	border-bottom-right-radius: 3px;
 	display: none;
 }
-}
 input#searchBox_Input{
 	background-color: #79d2a6;
 	position: absolute;
@@ -1007,7 +1002,6 @@ input#searchBox_Input{
 .navIcons li:hover .searchBox {
 	display: block;
 }
-
 #myUL li{
 	width: 45%;
 	height: 30px;
