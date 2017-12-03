@@ -10,6 +10,13 @@ body{
 	font-family: Calibri;
 	font-size: 15px;
 	background-color: #e9ebee;
+	
+
+	position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+
 }
 .newContent{
 	margin-bottom: 10px;
@@ -34,6 +41,7 @@ body{
 	height: 23px;
 	margin-top: 5px;
 	margin-left:5px;
+	transition: background 0.2s ease;
 }
 #hamburgerIcon_Close{
 	width: 23px;
@@ -41,6 +49,7 @@ body{
 	margin-top: 5px;
 	margin-left:5px;
 	display: none;
+
 }
 #searchIcon{
 	width: 23px;
@@ -48,6 +57,7 @@ body{
 	float: right;
 	margin-top: 5px;
 	margin-right: 5px;
+	transition: background 0.2s ease;
 }
 #searchIcon_Close{
 	width: 23px;
@@ -62,8 +72,7 @@ body{
 	height: 300px;
 	overflow: hidden;
 	background-color: #84dfb2;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
+
 	display: none;
 }
 .main{
@@ -104,8 +113,8 @@ body{
 .submenu>li{
 	list-style-type: none;	
 	border-bottom: 1px solid #3abd7d;
-	height: 45px;
-	line-height: 45px;
+	height: 30px;
+	line-height: 30px;
 }
 .submenu>li:hover{
 	background-color: #62c192;
@@ -118,7 +127,7 @@ body{
 /* 	----------- end of navigator -----------  */
 .headerWrapper{
 	width: 98%;
-	height: 30px;
+	height: 40px;
 	background-color: #f6f7f9;
 	margin-top:5px;
 	margin-left: auto;
@@ -157,11 +166,10 @@ body{
 	font-size: 12px;
 	font-weight: bold;
 	margin-left: 30px;
-	margin-top: -23px;
-	
+	margin-top: -22px;
 }
 .titleIcon{
-	margin-top: 5px;
+	margin-top: 9px;
 	margin-left: 5px;
 }
 .contentWrapper_Text{
@@ -195,8 +203,8 @@ body{
 }
 #searchBox_Input{
 	background-color: #79d2a6;
-	position: absolute;
-	top: 6%;
+	
+	margin-top: 10px;
 	right: 5%;
 	margin-left: 5%;
 	width: 90%;
@@ -209,13 +217,11 @@ body{
 	color: white;
 	border-radius: 2px;
 }
-#myUL li:nth-child(even){
-	border-left: 1px solid #4bb280;
-	margin-left: 0px;
-}
+
 #myUL{
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-left: 8%;
+
 }
 #myUL li{
 	width: 45%;
@@ -227,6 +233,8 @@ body{
 	border-bottom: 1px solid #4bb280;
 	line-height: 30px;
 	
+	margin-left: 10px;
+}
 }
 #myUL li a{
 	text-decoration: none;
@@ -246,11 +254,18 @@ body{
 }
 
 .foot{
-	position: relative;
+	position: absolute;
 	bottom: 0px;
 	background-color: #484848;
 	width: 100%;
 	height: 40px;
+  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ 
+  text-align: center;
 }
 .foot p{
 	color: white;
@@ -260,6 +275,9 @@ body{
 	line-height: 35px;
 
 }
-
+#container{
+	position: relative;
+	min-height:100%;
+}
 
 }
