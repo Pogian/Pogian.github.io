@@ -262,7 +262,6 @@ body{
 .contentWrapper_Comments{
 	width: 98%;
 	height:auto;
-	max-height: 250px;
 	overflow: auto;
 	background-color: #ffffff;
 	margin-right: auto;
