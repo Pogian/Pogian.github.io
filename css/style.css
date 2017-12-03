@@ -15,19 +15,19 @@ body{
 	margin-bottom: 10px;
 }
 .topIcon_background{
-	background-color: red;
+	background-color: #db5238;
 	width: 100%;
 	height: 35px;
 }
 #topLabel {
 	color: #ffffff;
-	font-family: Sogoe UI;
+	font-family: Segoe UI;
 	font-size: 20px;
-	font-weight: normal;
+	font-weight: bold;
 	color: white;
 	position: absolute;
 	top:5px;
-	left: 40%;
+	left: 38%;
 }
 #hamburgerIcon{
 	width: 23px;
@@ -35,7 +35,13 @@ body{
 	margin-top: 5px;
 	margin-left:5px;
 }
-
+#hamburgerIcon_Close{
+	width: 23px;
+	height: 23px;
+	margin-top: 5px;
+	margin-left:5px;
+	display: none;
+}
 #searchIcon{
 	width: 23px;
 	height: 23px;
@@ -43,10 +49,19 @@ body{
 	margin-top: 5px;
 	margin-right: 5px;
 }
+#searchIcon_Close{
+	width: 23px;
+	height: 23px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: none;
+}
 .searchPad{
 	width: 100%;
 	height: 300px;
-	background-color: green;
+	overflow: hidden;
+	background-color: #84dfb2;
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	display: none;
@@ -72,7 +87,8 @@ body{
 .main>li:hover .submenu{
 	display: block;
 }
-.main li a{
+.main>li>a{
+	font-weight: bold;
 	text-decoration: none;
 	display: block;	
 	color: #ffffff;
@@ -96,6 +112,7 @@ body{
 }
 .submenu>li>a{
 	color: #484848;
+	text-decoration: none;
 }
 
 /* 	----------- end of navigator -----------  */
@@ -122,8 +139,8 @@ body{
 	border:1px solid #d0d0d0;
 	border-top-right-radius: none;
 	border-top-left-radius: none;
-	border-bottom-right-radius: 2px;
-	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
 }
 .owl-carousel li{
@@ -159,18 +176,90 @@ body{
 	border-top-right-radius: none;
 	border-top-left-radius: none;
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 #popularAnime{
 	margin:5px 5px;
 	text-indent: 20px;
 }
+.animeList li{
+	list-style-type: none;
+}
+.animeList li a{
+	text-decoration: none;
+}
+.searchBox{
+	display: none;
+
+}
+#searchBox_Input{
+	background-color: #79d2a6;
+	position: absolute;
+	top: 6%;
+	right: 5%;
+	margin-left: 5%;
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 13px;
+	border:none;
+	color: white;
+	border-radius: 2px;
+}
+#myUL li:nth-child(even){
+	border-left: 1px solid #4bb280;
+	margin-left: 0px;
+}
+#myUL{
+	margin-top: 40px;
+	margin-left: 8%;
+}
+#myUL li{
+	width: 45%;
+	max-width: 170px;
+	height: 30px;
+	text-align: center;
+	list-style-type: none;
+	float:left;
+	border-bottom: 1px solid #4bb280;
+	line-height: 30px;
+	
+}
+#myUL li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: segoe UI;
+	color: #484848;
+
+}
+#myUL li:hover{
+	background-color: #79d2a6;
+}
 
 
+.menuBox{
+	display: none;
+}
 
+.foot{
+	position: relative;
+	bottom: 0px;
+	background-color: #484848;
+	width: 100%;
+	height: 40px;
+}
+.foot p{
+	color: white;
+	font font-family: Segoe UI;
+	font-weight: bold;
+	text-align: center;
+	line-height: 35px;
 
-
-
-
+}
 
 
 }
