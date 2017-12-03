@@ -3,10 +3,11 @@ $(document).ready(function(){
     loop:false,
     margin:2,
     responsiveClass:true,
+    dots: true,
     responsive:{
         0:{
             items:4,
-            nav:true
+            nav:false
         },
         600:{
             items:3,
@@ -18,9 +19,14 @@ $(document).ready(function(){
             loop:false
         }
     }
-})
+}
+)
+/*	---------------end of owl-carousel-------------- 		*/
 
 $("#hamburgerIcon").click(function(){
 	$(".searchPad").slideToggle();
 });
 });
+
+
+
