@@ -186,6 +186,15 @@ body{
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
+	
+}
+.contentWrapper_Text p{
+	margin: 5px 5px;
+}
+.contentWrapper_Text img{
+	margin: 5px 5px;
+	width: 97%;
+	height: 200px;
 }
 #popularAnime{
 	margin:5px 5px;
