@@ -16,7 +16,7 @@ $(".contentWrapper_Episodes li a").click(function(e){
 		{
 			test = "Video Unavailable";
 		}	
-			$("span").text("> "+ test);
+			$("span").text(test);
 	$("#videoPlayer").load();
 	});
 
