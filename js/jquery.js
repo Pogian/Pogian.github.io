@@ -1,4 +1,34 @@
 $(document).ready(function(){
+
+
+
+
+
+$(".contentWrapper_Episodes li a").click(function(e){
+		e.preventDefault();
+		$(".hideIframe").show();
+		$(".hideComments").show();
+		$(".hideStory").hide();
+	$("#videoPlayer").attr("src", $(this).attr("href"));
+	$("#videoPlayer").attr("title", $(this).attr("title"));
+		var test = $("#videoPlayer").attr("title");
+		if(test == "")
+		{
+			test = "Video Unavailable";
+		}	
+			$("span").text("> "+ test);
+	$("#videoPlayer").load();
+	});
+
+
+
+
+
+
+
+
+
+
     $('.owl-carousel').owlCarousel({
     loop:false,
     margin:2,
@@ -89,5 +119,12 @@ function myFunction() {
         }
     }
 }
+
+
+
+
+
+
+
 
 
