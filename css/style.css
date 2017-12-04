@@ -1,3 +1,6 @@
+
+
+
 @media screen and (min-width: 1024px){
 .forMobile{
 	display: none;
@@ -219,6 +222,113 @@ body{
   	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   	max-width: 100%;
 }
+.hideIframe{
+	display: none;
+}
+.contentWrapper_Iframe{
+	width: 78.5%;
+	float: left;
+	height: 510px;
+	background-color: #ffffff;
+	margin-left: 5px;
+	margin-right: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.contentWrapper_Iframe #videoPlayer{
+	width: 98.8%;
+	height: 495px;
+	margin: 5px 6px;
+	
+}
+
+.myEpisodes>.headerWrapper{
+	width: 20%;
+	float: right;
+	height: 35px;
+	background-color: #f6f7f9;
+	margin-top:-36px;
+	margin-right: 5px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border:1px solid #d0d0d0;
+	border-bottom: none;
+	box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.2);
+}
+.myEpisodes>.contentWrapper_Episodes{
+	width: 20%;
+	float: right;
+	height:auto;
+	max-height: 500px;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-right: 5px;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin-bottom: 10px;
+}
+.myEpisodes li{
+	float: left;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	width: 75px;
+	height: 30px;
+	line-height: 28px;
+	background-color: #c7c7c7;
+	border-radius: 4px;
+	text-align: center;
+}
+.myEpisodes li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: segoe ui;
+	font-weight: bold;
+	color: #484848;
+}
+.myEpisodes li a:visited{
+	color: #f66060;
+}
+.contentWrapper_Comments{
+	width: 78.5%;
+	float: left;
+	height:auto;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-left: 5px;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+#disqus_thread{
+	margin:2px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .foot{
 	display: none;
 }
