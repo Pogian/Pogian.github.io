@@ -366,4 +366,16 @@ body{
 	line-height: 50px;
 
 }
+p.disclaimer{
+	width: 100%;
+	height: 100px;
+	line-height: 20px;
+	background-color: #484848;
+	color: #ffffff;
+	display: none;
+}
+.open_disclaimer:hover .disclaimer{
+	display: block;
+	text-align: center;
+}
 }
