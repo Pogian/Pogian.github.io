@@ -9,7 +9,7 @@
 body{
 	font-family: Calibri;
 	font-size: 15px;
-	background-color: red;
+	background-color: #e9ebee;
 	position: relative;
   	margin: 0;
   	padding-bottom: 6rem;
@@ -379,17 +379,6 @@ p.disclaimer{
 	display: block;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 667px){
 .forDesktop{
@@ -1540,6 +1529,393 @@ p.disclaimer{
 	display: block;
 	text-align: center;
 }
+
+
+@media only screen and (max-width: 320px){
+.forDesktop{
+	display: none;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Calibri;
+	font-size: 15px;
+	background-color: #e9ebee;
+	position: relative;
+  	margin: 0;
+  	padding-bottom: 6rem;
+  	min-height: 100%;
+
+}
+.newContent{
+	margin-bottom: 10px;
+}
+.topIcon_background{
+	background-color: #db5238;
+	width: 100%;
+	height: 40px;
+}
+#topLabel {
+	color: #ffffff;
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top:5px;
+	left: 38%;
+}
+#hamburgerIcon{
+	width: 23px;
+	height: 23px;
+	margin-top: 7px;
+	margin-left:5px;
+	transition: background 0.2s ease;
+}
+#hamburgerIcon_Close{
+	width: 23px;
+	height: 23px;
+	margin-top: 7px;
+	margin-left:5px;
+	display: none;
+}
+
+#searchIcon{
+	width: 23px;
+	height: 23px;
+	float: right;
+	margin-top: 7px;
+	margin-right: 5px;
+	transition: background 0.2s ease;
+}
+#searchIcon_Close{
+	width: 23px;
+	height: 23px;
+	float: right;
+	margin-top: 7px;
+	margin-right: 5px;
+	display: none;
+}
+.searchPad{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	background-color: #84dfb2;
+
+	display: none;
+}
+.main{
+	background-color: #f4684d;
+	width: 100%;
+	height: 50px;
+	display: block;
+	position: relative;
+}
+.main>li{
+	list-style-type: none;
+	float:left;
+	width: 25%;
+	text-align: center;
+	line-height: 50px;
+}
+.main>li:hover{
+	background-color: #d05139;
+	display: block;
+}
+.main>li:hover .submenu{
+	display: block;
+}
+.main>li>a{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;	
+	color: #ffffff;
+}
+.submenu{
+	background-color: #84dfb2;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	display: none;
+	z-index: 9999;
+}
+.submenu>li{
+	list-style-type: none;	
+	border-bottom: 1px solid #3abd7d;
+	height: 35px;
+	line-height: 35px;
+}
+.submenu>li:hover{
+	background-color: #62c192;
+}
+.submenu>li>a{
+	color: #484848;
+	text-decoration: none;
+}
+
+/* 	----------- end of navigator -----------  */
+.headerWrapper{
+	width: 98%;
+	height: 35px;
+	background-color: #f6f7f9;
+	margin-top:5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border:1px solid #d0d0d0;
+	border-bottom: none;
+	box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.2);
+}
+.contentWrapper_Owl{
+	width: 98%;
+	height: 130px;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.owl-carousel img{
+	width: 150px;
+	height: 120px;
+}
+.owl-carousel li{
+	list-style-type: none;
+	margin-top: 5px ;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.owl-nav .disabled {
+  display: none;
+}
+.title{
+	font-family: Segoe UI;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: -22px;
+}
+.otherIcons{
+	width: 21px;
+	height: 21px;
+	margin-top: 7px;
+	margin-left: 5px;
+}
+.contentWrapper_Text{
+	width: 98%;
+	height:auto;
+	max-height: 330px;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.contentWrapper_Text p{
+	margin: 5px 5px;
+	text-indent: 10px;
+	text-align: justify;
+}
+.contentWrapper_Text img{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 10px;
+
+	width: 50%;
+	height: 200px;
+	float:left;
+}
+.contentWrapper_Iframe{
+	width: 98%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.contentWrapper_Iframe #videoPlayer{
+	width: 97%;
+	height: 340px;
+	margin: 5px 5px;
+	
+}
+.hideIframe,.hideComments{
+	display: none;
+}
+
+.myEpisodes li{
+	float: left;
+	list-style-type: none;
+	margin: 3px 2px;
+	width: 83px;
+	height: 30px;
+	line-height: 28px;
+	background-color: #c7c7c7;
+	border-radius: 4px;
+	text-align: center;
+}
+.myEpisodes li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: segoe ui;
+	font-weight: bold;
+	color: #484848;
+}
+.myEpisodes li a:visited{
+	color: #f66060;
+}
+.contentWrapper_Episodes{
+	width: 98%;
+	height:auto;
+	max-height: 200px;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.contentWrapper_Comments{
+	width: 98%;
+	height:auto;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+#disqus_thread{
+	margin:2px 5px;
+}
+
+#popularAnime{
+	margin:5px 5px;
+	text-indent: 20px;
+}
+.animeList li{
+	list-style-type: none;
+}
+.animeList li a{
+	text-decoration: none;
+}
+.searchBox{
+	display: none;
+
+}
+#searchBox_Input{
+	background-color: #79d2a6;
+	
+	margin-top: 10px;
+	right: 5%;
+	margin-left: 5%;
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 13px;
+	border:none;
+	color: white;
+	border-radius: 2px;
+}
+
+#myUL{
+	margin-top: 10px;
+	margin-left: 1%;
+
+}
+#myUL li{
+	width: 45%;
+	max-width: 170px;
+	height: 30px;
+	text-align: center;
+	list-style-type: none;
+	float:left;
+	border-bottom: 1px solid #4bb280;
+	line-height: 30px;
+	
+	margin-left: 10px;
+}
+}
+#myUL li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: segoe UI;
+	color: #484848;
+
+}
+#myUL li:hover{
+	background-color: #79d2a6;
+}
+
+
+.menuBox{
+	display: none;
+}
+
+.foot{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: #484848;
+  	text-align: center;
+}
+.foot p{
+	color: white;
+	font font-family: Segoe UI;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+
+}
+p.disclaimer{
+	width: 100%;
+	height: 100px;
+	line-height: 20px;
+	background-color: #484848;
+	color: #ffffff;
+	display: none;
+}
+.open_disclaimer:hover .disclaimer{
+	display: block;
+	text-align: center;
+}
+
+
+}	/*end of 375px width*/
 }	/*end of 375px width*/
 
 
