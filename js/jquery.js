@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-
+/* --------- EPISODE TITLE / hiding episode panel --------------*/
 
 
 $(".contentWrapper_Episodes li a").click(function(e){
@@ -20,14 +20,7 @@ $(".contentWrapper_Episodes li a").click(function(e){
 	$("#videoPlayer").load();
 	});
 
-
-
-
-
-
-
-
-
+/* --------- Image carousel in index.html --------------*/
 
     $('.owl-carousel').owlCarousel({
     loop:false,
@@ -52,7 +45,7 @@ $(".contentWrapper_Episodes li a").click(function(e){
 }
 )
  });  
-/*	---------------end of owl-carousel-------------- 		*/
+/* --------- Hamburger and Search Icon --------------*/
 
 $(document).ready(function(){
 	$("#searchIcon").click(function(){
@@ -76,6 +69,7 @@ $(document).ready(function(){
 	});
 });
 
+
 $(document).ready(function(){
 	$("#hamburgerIcon").click(function(){
 		$(".menuBox").show();
@@ -98,7 +92,7 @@ $(document).ready(function(){
 	});
 });
 
-
+/* --------- function for the searchBox tp find the search--------------*/
 
 
 function myFunction() {
