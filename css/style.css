@@ -2423,7 +2423,7 @@ body{
 }
 .recAdded { 
   	display: grid;
-  	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  	grid-template-columns: repeat(auto-fill, minmax(93px, 1fr));
   	grid-gap: 2px;
   	align-items: stretch;
  }
@@ -2432,9 +2432,10 @@ body{
  	margin:2px auto;
  }
 .recAdded img {
-	width: 100px;
+	width: 106px;
 	height: 130px;
-	margin-bottom: -5px;
+	margin-bottom: -6px;
+	margin-left: 2px;
 }
 
 .contentWrapper_Iframe{
