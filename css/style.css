@@ -2336,7 +2336,7 @@ body{
 .contentWrapper_Text{
 	width: 98%;
 	height:auto;
-	max-height: 330px;
+	max-height: 400px;
 	overflow: auto;
 	background-color: #ffffff;
 	margin-left: auto;
@@ -2394,15 +2394,14 @@ body{
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	margin-bottom: 10px;
-
 }
 .contentWrapper_Text_right li{
 	list-style-type: none;
 	float:left;
 	overflow:auto;
 	width: 49.5%;
-	line-height: 40px;
-	height: 40px;
+	line-height: 35px;
+	height: 35px;
 	text-align: center;
 	border-bottom: 1px solid #dbd8d8;
 }
@@ -2426,8 +2425,8 @@ body{
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 	justify-items:left;
 	grid-gap: 2px;
-	
 	margin-left: 10px;
+	margin-bottom: 10px;
  }
  .recAdded li{
  	list-style-type: none;
@@ -2437,7 +2436,6 @@ body{
 .recAdded img {
 	width: 90%;
 	height: 130px;
-	
 }
 
 .contentWrapper_Iframe{
@@ -2457,7 +2455,6 @@ body{
 	width: 97%;
 	height: 340px;
 	margin: 5px 5px;
-	
 }
 .hideIframe,.hideComments{
 	display: none;
