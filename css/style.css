@@ -2887,6 +2887,21 @@ body{
 	height: 200px;
 	float:left;
 }
+.contentWrapper_Related{
+	width: 98%;
+	height:auto;
+	max-height: 330px;
+	overflow: auto;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #d0d0d0;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
 .headerWrapper_right{
 	width: 98%;
 	margin-top: 5px;
@@ -2907,7 +2922,6 @@ body{
 	max-height: 200px;
 	overflow: auto;
 	background-color: #ffffff;
-
 	margin-left: auto;
 	margin-right: auto;
 	border:1px solid #d0d0d0;
@@ -2917,7 +2931,6 @@ body{
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	margin-bottom: 10px;
-
 }
 .contentWrapper_Text_right li{
 	list-style-type: none;
