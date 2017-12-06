@@ -122,6 +122,12 @@ body{
 	margin-left: 30px;
 	margin-top: -22px;
 }
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
+}
 .contentWrapper_Text{
 	width: 78.5%;
 	float: left;
@@ -502,6 +508,12 @@ body{
 	font-weight: bold;
 	margin-left: 30px;
 	margin-top: -22px;
+}
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
 }
 .otherIcons{
 	width: 21px;
@@ -970,6 +982,12 @@ body{
 	margin-left: 30px;
 	margin-top: -22px;
 }
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
+}
 .otherIcons{
 	width: 21px;
 	height: 21px;
@@ -1427,6 +1445,12 @@ body{
 	font-weight: bold;
 	margin-left: 30px;
 	margin-top: -22px;
+}
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
 }
 .otherIcons{
 	width: 21px;
@@ -1889,6 +1913,12 @@ body{
 	margin-left: 30px;
 	margin-top: -22px;
 }
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
+}
 .otherIcons{
 	width: 21px;
 	height: 21px;
@@ -2349,6 +2379,12 @@ body{
 	margin-left: 30px;
 	margin-top: -22px;
 }
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
+}
 .otherIcons{
 	width: 21px;
 	height: 21px;
@@ -2808,6 +2844,13 @@ body{
 	margin-left: 30px;
 	margin-top: -22px;
 }
+.status_Completed{
+	color: #5cb85c;
+}
+.status_Ongoing{
+	color: #d9534f;
+}
+
 .otherIcons{
 	width: 21px;
 	height: 21px;
@@ -2964,6 +3007,7 @@ body{
 .myEpisodes li a:visited{
 	color: #f66060;
 }
+
 .contentWrapper_Episodes{
 	width: 98%;
 	height:auto;
