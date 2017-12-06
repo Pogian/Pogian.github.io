@@ -281,9 +281,10 @@ body{
 	width: 75px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -293,7 +294,7 @@ body{
 	color: #484848;
 }
 .myEpisodes li a:visited{
-	color: #f66060;
+	color: #f66060;;
 }
 .contentWrapper_Comments{
 	width: 78.5%;
@@ -637,7 +638,6 @@ body{
 .hideIframe,.hideComments{
 	display: none;
 }
-
 .myEpisodes li{
 	float: left;
 	list-style-type: none;
@@ -645,9 +645,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -659,6 +660,7 @@ body{
 .myEpisodes li a:visited{
 	color: #f66060;
 }
+
 .contentWrapper_Episodes{
 	width: 98%;
 	height:auto;
@@ -1098,7 +1100,6 @@ body{
 .hideIframe,.hideComments{
 	display: none;
 }
-
 .myEpisodes li{
 	float: left;
 	list-style-type: none;
@@ -1106,9 +1107,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -1120,6 +1122,7 @@ body{
 .myEpisodes li a:visited{
 	color: #f66060;
 }
+
 .contentWrapper_Episodes{
 	width: 98%;
 	height:auto;
@@ -1556,7 +1559,6 @@ body{
 .hideIframe,.hideComments{
 	display: none;
 }
-
 .myEpisodes li{
 	float: left;
 	list-style-type: none;
@@ -1564,9 +1566,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -1578,6 +1581,7 @@ body{
 .myEpisodes li a:visited{
 	color: #f66060;
 }
+
 .contentWrapper_Episodes{
 	width: 98%;
 	height:auto;
@@ -2018,7 +2022,6 @@ body{
 .hideIframe,.hideComments{
 	display: none;
 }
-
 .myEpisodes li{
 	float: left;
 	list-style-type: none;
@@ -2026,9 +2029,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -2040,6 +2044,7 @@ body{
 .myEpisodes li a:visited{
 	color: #f66060;
 }
+
 .contentWrapper_Episodes{
 	width: 98%;
 	height:auto;
@@ -2476,7 +2481,6 @@ body{
 .hideIframe,.hideComments{
 	display: none;
 }
-
 .myEpisodes li{
 	float: left;
 	list-style-type: none;
@@ -2484,9 +2488,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
@@ -2944,9 +2949,10 @@ body{
 	width: 83px;
 	height: 30px;
 	line-height: 28px;
-	background-color: #c7c7c7;
+	background: linear-gradient(to bottom, #f6f6f6 0%, #eeeded 100%);
 	border-radius: 4px;
 	text-align: center;
+	border:1px solid #a3a3a3;
 }
 .myEpisodes li a{
 	text-decoration: none;
