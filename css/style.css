@@ -213,7 +213,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -609,7 +609,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -1070,7 +1070,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -1528,7 +1528,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -1990,7 +1990,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -2449,7 +2449,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 90%;
@@ -2908,7 +2908,7 @@ body{
  .recAdded li{
  	list-style-type: none;
  	margin-left: -10px;
- 	margin-bottom: -7px;
+ 	margin-bottom: -5px;
  }
 .recAdded img {
 	width: 89%;
@@ -3036,7 +3036,6 @@ body{
 	border-bottom: 1px solid #dbd8d8;
 	line-height: 30px;
 	margin-left: 10px;
-}
 }
 #myUL li a{
 	text-decoration: none;
