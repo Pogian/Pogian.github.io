@@ -510,9 +510,17 @@ body{
 	margin-top: -22px;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 .otherIcons{
@@ -983,9 +991,17 @@ body{
 	margin-top: -22px;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 .otherIcons{
@@ -1447,9 +1463,17 @@ body{
 	margin-top: -22px;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 .otherIcons{
@@ -1914,9 +1938,17 @@ body{
 	margin-top: -22px;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 .otherIcons{
@@ -2378,11 +2410,20 @@ body{
 	font-weight: bold;
 	margin-left: 30px;
 	margin-top: -22px;
+	position: relative;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 .otherIcons{
@@ -2845,9 +2886,17 @@ body{
 	margin-top: -22px;
 }
 .status_Completed{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	margin-top: -17px;
 	color: #d9534f;
 }
 
