@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
 /* --------- MORE AND LESS READING --------------*/
-
 $(".moreReading").click(function(){
 	$('.contentWrapper_Text').css("max-height","400px");
 	$('.moreReading').css("display","none");
 	$('.lessReading').css("display","block");
-	$('.lessReading').css("margin-top","190px");
-	$(".contentWrapper_Text").css("overflow-y","visible");	
+	$(".contentWrapper_Text").css("overflow-y","auto");	
+	$(".contentWrapper_Text").css("box-shadow","-1px 2px 2px 0px rgba(0,0,0,0.2)");	
 });
-
 $(".lessReading").click(function(){
 	$(".contentWrapper_Text").css("max-height","210px");
 	$(".contentWrapper_Text").css("overflow-y","hidden");
 	$('.moreReading').css("display","block");
 	$('.lessReading').css("display","none");
-});
+	$(".contentWrapper_Text").css("box-shadow","-1px 2px 2px 0px rgba(0,0,0,0.2)");	
 
+});
+	
 /* --------- EPISODE TITLE / hiding episode panel --------------*/
 
 
