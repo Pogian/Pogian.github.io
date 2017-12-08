@@ -1,5 +1,21 @@
 $(document).ready(function(){
 
+/* --------- MORE AND LESS READING --------------*/
+
+$(".moreReading").click(function(){
+	$('.contentWrapper_Text').css("max-height","400px");
+	$('.moreReading').css("display","none");
+	$('.lessReading').css("display","block");
+	$('.lessReading').css("margin-top","190px");
+	$(".contentWrapper_Text").css("overflow-y","visible");	
+});
+
+$(".lessReading").click(function(){
+	$(".contentWrapper_Text").css("max-height","210px");
+	$(".contentWrapper_Text").css("overflow-y","hidden");
+	$('.moreReading').css("display","block");
+	$('.lessReading').css("display","none");
+});
 
 /* --------- EPISODE TITLE / hiding episode panel --------------*/
 

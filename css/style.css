@@ -2258,7 +2258,7 @@ p.disclaimer{
 body{
 	font-family: Calibri;
 	font-size: 15px;
-	background-color: #e9ebee;
+	background-color: red;
 	position: relative;
   	margin: 0;
   	padding-bottom: 6rem;
@@ -2266,7 +2266,7 @@ body{
 
 }
 .newContent{
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 .topIcon_background{
 	background-color: #db5238;
@@ -2447,8 +2447,8 @@ body{
 .contentWrapper_Text{
 	width: 98%;
 	height:auto;
-	max-height: 400px;
-	overflow: auto;
+	max-height: 210px;
+	overflow-y: hidden;
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
@@ -2458,12 +2458,39 @@ body{
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
+	position: relative;
+	
+}
+.moreReading,.lessReading{
+	text-align: center;
+	top: 342px;
+	width: 97.9%;
+	height: 20px;
+	background-color: #f6f7f9;
+	margin-left: 3px;
+	margin-right: auto;
+	border-top: none;
+	border:1px solid #d0d0d0;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	position: absolute;
+	z-index: 1;
+}
+.lessReading{
+	display: none;
+}
+#arrowSize{
+	margin-top: 4px;
+	width: 25px;
+	height: 12px;
+	text-align: center;
 }
 .contentWrapper_Text p{
 	margin: 5px 5px;
 	text-indent: 10px;
 	text-align: justify;
 }
+
 .contentWrapper_Text img{
 	margin-top: 5px;
 	margin-bottom: 2px;
