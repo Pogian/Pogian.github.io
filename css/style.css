@@ -2514,7 +2514,7 @@ body{
 	height: 35px;
 	text-align: center;
 	border-bottom: 1px solid #dbd8d8;
-	background-color: transparent;
+
 }
 .contentWrapper_Text_right li:nth-child(2n){
 	border-right: none;
@@ -2532,6 +2532,7 @@ body{
 	font-family: segoe ui;
 	font-size: 12px;
 	font-weight: bold;
+	background-color: transparent;
 }
 .recAdded { 
   	display: grid;
