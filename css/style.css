@@ -121,11 +121,22 @@ body{
 	font-weight: bold;
 	margin-left: 30px;
 	margin-top: -22px;
+
 }
 .status_Completed{
+	position: absolute;
+	margin-top: -17px;
+	margin-left: 95px;
+	font-weight: bold;
+	float: left;
 	color: #5cb85c;
 }
 .status_Ongoing{
+	position: absolute;
+	margin-top: -17px;
+	margin-left: 95px;
+	font-weight: bold;
+	float: left;
 	color: #d9534f;
 }
 .contentWrapper_Text{
@@ -329,6 +340,7 @@ body{
 	   background-color: red;
 	   color: white;
 	   text-align: center;
+	   display: none;
 }
 }
 
